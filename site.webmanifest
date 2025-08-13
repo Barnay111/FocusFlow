@@ -1,8 +1,8 @@
 {
-    "name": "Tomodoro",
-    "short_name": "Tomodoro",
+    "name": "FocusFlow",
+    "short_name": "FocusFlow",
     "start_url": "./index.html",
-    "description": "A pomodoro timer for the web",
+    "description": "A FocusFlow timer for the web",
     "icons": [
         {
             "src": "./icons/icon192.png",

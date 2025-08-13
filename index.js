@@ -79,7 +79,7 @@ function setTime() {
 		":" +
 		(seconds % 60).toString().padStart(2, "0");
 	timediv.innerText = timestr;
-	document.title = `${timestr} ${fullname[roundInfo.current]} - Tomodoro`;
+	document.title = `${timestr} ${fullname[roundInfo.current]} - FocusFlow`;
 	progress.style.strokeDashoffset = (roundInfo.t / config[roundInfo.current]) * 100;
 	if (pipActive) loop();
 }
